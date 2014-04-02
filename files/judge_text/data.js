@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"judge_text.html",
-  "generationDate":new Date(1395843182113.68),
+  "generationDate":new Date(1396428148443.81),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -117,7 +117,7 @@
           "style":{
             "location":{
               "x":630,
-              "y":1590},
+              "y":390},
             "size":{
               "width":560,
               "height":261}},
@@ -132,240 +132,12 @@
           "style":{
             "location":{
               "x":10,
-              "y":1590},
+              "y":390},
             "size":{
               "width":560,
               "height":261}},
           "adaptiveStyles":{
 }},
-{
-          "id":"7531380fa1ea40c09fa198bbb2ea1421",
-          "label":"",
-          "type":"buttonShape",
-          "styleType":"h2",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":230,
-              "y":367},
-            "size":{
-              "width":97,
-              "height":28}},
-          "adaptiveStyles":{
-},
-          "objects":[{
-              "id":"4dc8c7aaf04e4443b5cd84746a6676a9",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "location":{
-                  "x":230,
-                  "y":367},
-                "size":{
-                  "width":97,
-                  "height":28}},
-              "adaptiveStyles":{
-}}],
-          "images":{
-            "normal~":"resources/images/transparent.gif"}},
-{
-          "id":"aaf4bba2ad5044af836ef5457b9ed314",
-          "label":"",
-          "type":"buttonShape",
-          "styleType":"h2",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":870,
-              "y":364},
-            "size":{
-              "width":100,
-              "height":28}},
-          "adaptiveStyles":{
-},
-          "objects":[{
-              "id":"02a967d00bc946c8b904161ea7b6134d",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "location":{
-                  "x":870,
-                  "y":364},
-                "size":{
-                  "width":100,
-                  "height":28}},
-              "adaptiveStyles":{
-}}],
-          "images":{
-            "normal~":"resources/images/transparent.gif"}},
-{
-          "id":"d5a556938a904ab0a841522593f6058a",
-          "label":"winner A button",
-          "type":"buttonShape",
-          "styleType":"buttonShape",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":208.5,
-              "y":2070},
-            "size":{
-              "width":140,
-              "height":30},
-            "cornerRadiusTopLeft":"5"},
-          "adaptiveStyles":{
-},
-          "objects":[{
-              "id":"9aee76e71fc14b3283b2b81ae2c825aa",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "location":{
-                  "x":208.5,
-                  "y":2070},
-                "size":{
-                  "width":140,
-                  "height":30},
-                "cornerRadiusTopLeft":"5"},
-              "adaptiveStyles":{
-}}],
-          "interactionMap":{
-            "onClick":{
-              "description":"OnClick",
-              "cases":[{
-                  "description":"Case 1",
-                  "isNewIfGroup":false,
-                  "actions":[{
-                      "action":"scrollToWidget",
-                      "description":"Scroll to Assessor - Navigation logged in/(Image) (y only)",
-                      "objectPath":["e34ed8bbeddb48d0ab956f5bddda07a0",
-"21e93a6843644148a85b03371aa66f65"],
-                      "options":{
-                        "direction":"vertical"}},
-{
-                      "action":"setWidgetSize",
-                      "description":"Set Size of winner confirmation popup to 1250 x 1600",
-                      "objectsToResize":[{
-                          "objectPath":["467b03a2529348a7a49b7ecf8fe336df"],
-                          "sizeInfo":{
-                            "width":{
-                              "exprType":"stringLiteral",
-                              "value":"1250",
-                              "stos":[]},
-                            "height":{
-                              "exprType":"stringLiteral",
-                              "value":"1600",
-                              "stos":[]},
-                            "easing":"none",
-                            "duration":1000}}]},
-{
-                      "action":"setPanelState",
-                      "description":"Set winner confirmation popup to text F22 won",
-                      "panelsToStates":[{
-                          "panelPath":["467b03a2529348a7a49b7ecf8fe336df"],
-                          "stateInfo":{
-                            "setStateType":"diagram",
-                            "stateNumber":1,
-                            "stateValue":{
-                              "exprType":"stringLiteral",
-                              "value":"1",
-                              "stos":[]},
-                            "loop":false,
-                            "showWhenSet":false,
-                            "options":{
-                              "compress":false}}}]}]}]}},
-          "tabbable":true,
-          "images":{
-            "normal~":"images/judge_text/winner_a_button_u18.png"}},
-{
-          "id":"dfee7405918a4f429a125cf259fcec2f",
-          "label":"winner B button",
-          "type":"buttonShape",
-          "styleType":"buttonShape",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":851,
-              "y":2070},
-            "size":{
-              "width":140,
-              "height":30},
-            "cornerRadiusTopLeft":"5"},
-          "adaptiveStyles":{
-},
-          "objects":[{
-              "id":"9ba553bec5ab4fef8a56e3be0a6f9392",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "location":{
-                  "x":851,
-                  "y":2070},
-                "size":{
-                  "width":140,
-                  "height":30},
-                "cornerRadiusTopLeft":"5"},
-              "adaptiveStyles":{
-}}],
-          "interactionMap":{
-            "onClick":{
-              "description":"OnClick",
-              "cases":[{
-                  "description":"Case 1",
-                  "isNewIfGroup":false,
-                  "actions":[{
-                      "action":"scrollToWidget",
-                      "description":"Scroll to Assessor - Navigation logged in/(Image) (y only)",
-                      "objectPath":["e34ed8bbeddb48d0ab956f5bddda07a0",
-"21e93a6843644148a85b03371aa66f65"],
-                      "options":{
-                        "direction":"vertical"}},
-{
-                      "action":"setWidgetSize",
-                      "description":"Set Size of winner confirmation popup to 1250 x 1600",
-                      "objectsToResize":[{
-                          "objectPath":["467b03a2529348a7a49b7ecf8fe336df"],
-                          "sizeInfo":{
-                            "width":{
-                              "exprType":"stringLiteral",
-                              "value":"1250",
-                              "stos":[]},
-                            "height":{
-                              "exprType":"stringLiteral",
-                              "value":"1600",
-                              "stos":[]},
-                            "easing":"none",
-                            "duration":1000}}]},
-{
-                      "action":"setPanelState",
-                      "description":"Set winner confirmation popup to text Z4 won",
-                      "panelsToStates":[{
-                          "panelPath":["467b03a2529348a7a49b7ecf8fe336df"],
-                          "stateInfo":{
-                            "setStateType":"diagram",
-                            "stateNumber":2,
-                            "stateValue":{
-                              "exprType":"stringLiteral",
-                              "value":"1",
-                              "stos":[]},
-                            "loop":false,
-                            "showWhenSet":false,
-                            "options":{
-                              "compress":false}}}]}]}]}},
-          "tabbable":true,
-          "images":{
-            "normal~":"images/judge_text/winner_a_button_u18.png"}},
 {
           "id":"948e94c1fe164040bfe13a0707d4796a",
           "label":"",
@@ -377,10 +149,10 @@
               "fillType":"solid",
               "color":0xFF0099FF},
             "location":{
-              "x":0,
-              "y":2190},
+              "x":-10,
+              "y":1980},
             "size":{
-              "width":1500,
+              "width":1200,
               "height":100},
             "linePattern":"none"},
           "adaptiveStyles":{
@@ -397,156 +169,16 @@
                   "fillType":"solid",
                   "color":0xFF0099FF},
                 "location":{
-                  "x":0,
-                  "y":2190},
+                  "x":-10,
+                  "y":1980},
                 "size":{
-                  "width":1500,
+                  "width":1200,
                   "height":100},
                 "linePattern":"none"},
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/judge_text/u22.png"}},
-{
-          "id":"b5f61bedbff24a32b04ec11c3e776884",
-          "label":"",
-          "type":"imageBox",
-          "styleType":"imageBox",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":10,
-              "y":410},
-            "size":{
-              "width":561,
-              "height":810},
-            "borderWidth":"1"},
-          "adaptiveStyles":{
-},
-          "objects":[{
-              "id":"e7d7db18624a45338cba9e10f3bdfe4d",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "location":{
-                  "x":10,
-                  "y":410},
-                "size":{
-                  "width":561,
-                  "height":810},
-                "borderWidth":"1"},
-              "adaptiveStyles":{
-}}],
-          "images":{
-            "normal~":"images/judge_text/u24.png"}},
-{
-          "id":"109ec681a7fb4b7d85a5618225545831",
-          "label":"",
-          "type":"imageBox",
-          "styleType":"imageBox",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":630,
-              "y":410},
-            "size":{
-              "width":560,
-              "height":810},
-            "borderWidth":"1"},
-          "adaptiveStyles":{
-},
-          "objects":[{
-              "id":"c96792179f18496093180363f6734ab6",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "location":{
-                  "x":630,
-                  "y":410},
-                "size":{
-                  "width":560,
-                  "height":810},
-                "borderWidth":"1"},
-              "adaptiveStyles":{
-}}],
-          "images":{
-            "normal~":"images/judge_text/u26.png"}},
-{
-          "id":"434924d657e74fc6b3e0e9d3439e4955",
-          "label":"",
-          "type":"imageBox",
-          "styleType":"imageBox",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":334,
-              "y":372},
-            "size":{
-              "width":17,
-              "height":17},
-            "borderWidth":"-1"},
-          "adaptiveStyles":{
-},
-          "objects":[{
-              "id":"d64f08c800104248945d418ebb62cdd9",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "location":{
-                  "x":334,
-                  "y":372},
-                "size":{
-                  "width":17,
-                  "height":17},
-                "borderWidth":"-1"},
-              "adaptiveStyles":{
-}}],
-          "images":{
-            "normal~":"images/judge_text/u28.png"}},
-{
-          "id":"792463b0725b4f7bb39a05d33ca0f5dd",
-          "label":"",
-          "type":"imageBox",
-          "styleType":"imageBox",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":974,
-              "y":370},
-            "size":{
-              "width":17,
-              "height":17},
-            "borderWidth":"-1"},
-          "adaptiveStyles":{
-},
-          "objects":[{
-              "id":"afef948f9c95430f9c8abeb0e5f15298",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "location":{
-                  "x":974,
-                  "y":370},
-                "size":{
-                  "width":17,
-                  "height":17},
-                "borderWidth":"-1"},
-              "adaptiveStyles":{
-}}],
-          "images":{
-            "normal~":"images/judge_text/u28.png"}},
+            "normal~":"images/judge_text/u14.png"}},
 {
           "id":"467b03a2529348a7a49b7ecf8fe336df",
           "label":"winner confirmation popup",
@@ -897,7 +529,401 @@
               "adaptiveStyles":{
 }}]},
 {
-          "id":"0e1f5ad6c90d4cd393b25bbcd059b0ce",
+          "id":"0bd6980863fd4bb6909bfcc22f7b10e9",
+          "label":"winner A button",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":329,
+              "y":715},
+            "size":{
+              "width":140,
+              "height":30},
+            "cornerRadiusTopLeft":"5"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c0733753b0184d0ca28fcf98a2421303",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":329,
+                  "y":715},
+                "size":{
+                  "width":140,
+                  "height":30},
+                "cornerRadiusTopLeft":"5"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"scrollToWidget",
+                      "description":"Scroll to Assessor - Navigation logged in/(Image) (y only)",
+                      "objectPath":["e34ed8bbeddb48d0ab956f5bddda07a0",
+"21e93a6843644148a85b03371aa66f65"],
+                      "options":{
+                        "direction":"vertical"}},
+{
+                      "action":"setWidgetSize",
+                      "description":"Set Size of winner confirmation popup to 1250 x 1600",
+                      "objectsToResize":[{
+                          "objectPath":["467b03a2529348a7a49b7ecf8fe336df"],
+                          "sizeInfo":{
+                            "width":{
+                              "exprType":"stringLiteral",
+                              "value":"1250",
+                              "stos":[]},
+                            "height":{
+                              "exprType":"stringLiteral",
+                              "value":"1600",
+                              "stos":[]},
+                            "easing":"none",
+                            "duration":1000}}]},
+{
+                      "action":"setPanelState",
+                      "description":"Set winner confirmation popup to text F22 won",
+                      "panelsToStates":[{
+                          "panelPath":["467b03a2529348a7a49b7ecf8fe336df"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":1,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/judge_text/winner_a_button_u39.png"}},
+{
+          "id":"c656ce5fa82a4edfb110832a41a3eb58",
+          "label":"winner B button",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":969,
+              "y":715},
+            "size":{
+              "width":140,
+              "height":30},
+            "cornerRadiusTopLeft":"5"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e7f4250987bb4f66931fc64ba302f940",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":969,
+                  "y":715},
+                "size":{
+                  "width":140,
+                  "height":30},
+                "cornerRadiusTopLeft":"5"},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"scrollToWidget",
+                      "description":"Scroll to Assessor - Navigation logged in/(Image) (y only)",
+                      "objectPath":["e34ed8bbeddb48d0ab956f5bddda07a0",
+"21e93a6843644148a85b03371aa66f65"],
+                      "options":{
+                        "direction":"vertical"}},
+{
+                      "action":"setWidgetSize",
+                      "description":"Set Size of winner confirmation popup to 1250 x 1600",
+                      "objectsToResize":[{
+                          "objectPath":["467b03a2529348a7a49b7ecf8fe336df"],
+                          "sizeInfo":{
+                            "width":{
+                              "exprType":"stringLiteral",
+                              "value":"1250",
+                              "stos":[]},
+                            "height":{
+                              "exprType":"stringLiteral",
+                              "value":"1600",
+                              "stos":[]},
+                            "easing":"none",
+                            "duration":1000}}]},
+{
+                      "action":"setPanelState",
+                      "description":"Set winner confirmation popup to text Z4 won",
+                      "panelsToStates":[{
+                          "panelPath":["467b03a2529348a7a49b7ecf8fe336df"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":2,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":false,
+                            "options":{
+                              "compress":false}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/judge_text/winner_a_button_u39.png"}},
+{
+          "id":"4385d92aa1a945bf9951e171123e5f74",
+          "label":"",
+          "type":"referenceDiagramObject",
+          "styleType":"referenceDiagramObject",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":87,
+              "y":680}},
+          "adaptiveStyles":{
+},
+          "masterId":"cd8ed5398a604449bc3e5bd0e00b50ea"},
+{
+          "id":"98308f0a84174a47a760ba1fb4b33a3a",
+          "label":"",
+          "type":"referenceDiagramObject",
+          "styleType":"referenceDiagramObject",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":727,
+              "y":680}},
+          "adaptiveStyles":{
+},
+          "masterId":"cd8ed5398a604449bc3e5bd0e00b50ea"},
+{
+          "id":"ac21e6701d144b6d81a0d38ffec35db2",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h2",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":227,
+              "y":803},
+            "size":{
+              "width":97,
+              "height":28}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"b93a925d53f04dc7b163516ede556cea",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":227,
+                  "y":803},
+                "size":{
+                  "width":97,
+                  "height":28}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"5255a26171ab4ff39e6202ff74b3f239",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"h2",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":867,
+              "y":800},
+            "size":{
+              "width":100,
+              "height":28}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"d0dd2460f63844baafd6dc0b5e68e3d2",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":867,
+                  "y":800},
+                "size":{
+                  "width":100,
+                  "height":28}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"a1bf9149b35f451183faf122ed0dfc9f",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":9,
+              "y":846},
+            "size":{
+              "width":561,
+              "height":810},
+            "borderWidth":"1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"7e35bc25679b4256b7e4cc010bf2517f",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":9,
+                  "y":846},
+                "size":{
+                  "width":561,
+                  "height":810},
+                "borderWidth":"1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/judge_text/u65.png"}},
+{
+          "id":"7b9aafee082c404b813b66ba4479eaa6",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":629,
+              "y":846},
+            "size":{
+              "width":560,
+              "height":810},
+            "borderWidth":"1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"eba95009beac42dcae540d5ab8c87d69",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":629,
+                  "y":846},
+                "size":{
+                  "width":560,
+                  "height":810},
+                "borderWidth":"1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/judge_text/u67.png"}},
+{
+          "id":"d4dddbc9265f4764aef8d76a8bd32055",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":331,
+              "y":808},
+            "size":{
+              "width":17,
+              "height":17},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"0883b941f70b4df1bc5a3e73de531da6",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":331,
+                  "y":808},
+                "size":{
+                  "width":17,
+                  "height":17},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/judge_text/u69.png"}},
+{
+          "id":"4cf88d0b30f946d4bd88c0151d599d57",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":971,
+              "y":806},
+            "size":{
+              "width":17,
+              "height":17},
+            "borderWidth":"-1"},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"e3915b4763724c1f8666928c93651ded",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":971,
+                  "y":806},
+                "size":{
+                  "width":17,
+                  "height":17},
+                "borderWidth":"-1"},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/judge_text/u69.png"}},
+{
+          "id":"cb0b9f7296d94ca78e7ab27a9cba380e",
           "label":"",
           "type":"textArea",
           "styleType":"textArea",
@@ -905,14 +931,14 @@
           "style":{
             "location":{
               "x":630,
-              "y":1280},
+              "y":1685},
             "size":{
               "width":560,
               "height":260}},
           "adaptiveStyles":{
 }},
 {
-          "id":"0694a117f4494616961ee3e39cde45e3",
+          "id":"41b164983be84fc4846aedc0f73981c2",
           "label":"",
           "type":"textArea",
           "styleType":"textArea",
@@ -920,38 +946,12 @@
           "style":{
             "location":{
               "x":10,
-              "y":1280},
+              "y":1685},
             "size":{
               "width":560,
               "height":260}},
           "adaptiveStyles":{
-}},
-{
-          "id":"bb059c1d504e4ac4b91eeefec5fca242",
-          "label":"",
-          "type":"referenceDiagramObject",
-          "styleType":"referenceDiagramObject",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":200,
-              "y":1932}},
-          "adaptiveStyles":{
-},
-          "masterId":"cd8ed5398a604449bc3e5bd0e00b50ea"},
-{
-          "id":"775585f4e20b4f13a092d4ae2be963ad",
-          "label":"",
-          "type":"referenceDiagramObject",
-          "styleType":"referenceDiagramObject",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":831,
-              "y":1932}},
-          "adaptiveStyles":{
-},
-          "masterId":"cd8ed5398a604449bc3e5bd0e00b50ea"}]}},
+}}]}},
   "masters":{
     "14818115d01f47f99a32087a167b2c37":{
       "packageId":"14818115d01f47f99a32087a167b2c37",
@@ -1234,8 +1234,8 @@
                 "adaptiveStyles":{
 }}],
             "images":{
-              "normal~":"images/judge_text/rectangle_u34.png",
-              "normal~":"images/judge_text/rectangle_u34.png"}},
+              "normal~":"images/judge_text/rectangle_u18.png",
+              "normal~":"images/judge_text/rectangle_u18.png"}},
 {
             "id":"81ea4546eed64b6abfea7f86e5337273",
             "label":"",
@@ -1278,8 +1278,8 @@
                 "adaptiveStyles":{
 }}],
             "images":{
-              "normal~":"images/judge_text/u36.png",
-              "normal~":"images/judge_text/u36.png"}}]}},
+              "normal~":"images/judge_text/u20.png",
+              "normal~":"images/judge_text/u20.png"}}]}},
     "cd8ed5398a604449bc3e5bd0e00b50ea":{
       "packageId":"cd8ed5398a604449bc3e5bd0e00b50ea",
       "type":"Axure:Master",
@@ -1344,8 +1344,8 @@
                 "adaptiveStyles":{
 }}],
             "images":{
-              "normal~":"images/judge_text/u58.png",
-              "normal~":"images/judge_text/u58.png"}},
+              "normal~":"images/judge_text/u44.png",
+              "normal~":"images/judge_text/u44.png"}},
 {
             "id":"a44e5786f65d47e18706ddcc9b34ef1c",
             "label":"",
@@ -1468,125 +1468,125 @@
       "scriptId":"u12"},
     "df1c339efbe544a2b3dcf40d7391f10b":{
       "scriptId":"u13"},
-    "7531380fa1ea40c09fa198bbb2ea1421":{
-      "scriptId":"u14"},
-    "4dc8c7aaf04e4443b5cd84746a6676a9":{
-      "scriptId":"u15"},
-    "aaf4bba2ad5044af836ef5457b9ed314":{
-      "scriptId":"u16"},
-    "02a967d00bc946c8b904161ea7b6134d":{
-      "scriptId":"u17"},
-    "d5a556938a904ab0a841522593f6058a":{
-      "scriptId":"u18"},
-    "9aee76e71fc14b3283b2b81ae2c825aa":{
-      "scriptId":"u19"},
-    "dfee7405918a4f429a125cf259fcec2f":{
-      "scriptId":"u20"},
-    "9ba553bec5ab4fef8a56e3be0a6f9392":{
-      "scriptId":"u21"},
     "948e94c1fe164040bfe13a0707d4796a":{
-      "scriptId":"u22"},
+      "scriptId":"u14"},
     "c69d61749d5a4cc9907740bb19baeb8a":{
-      "scriptId":"u23"},
-    "b5f61bedbff24a32b04ec11c3e776884":{
-      "scriptId":"u24"},
-    "e7d7db18624a45338cba9e10f3bdfe4d":{
-      "scriptId":"u25"},
-    "109ec681a7fb4b7d85a5618225545831":{
-      "scriptId":"u26"},
-    "c96792179f18496093180363f6734ab6":{
-      "scriptId":"u27"},
-    "434924d657e74fc6b3e0e9d3439e4955":{
-      "scriptId":"u28"},
-    "d64f08c800104248945d418ebb62cdd9":{
-      "scriptId":"u29"},
-    "792463b0725b4f7bb39a05d33ca0f5dd":{
-      "scriptId":"u30"},
-    "afef948f9c95430f9c8abeb0e5f15298":{
-      "scriptId":"u31"},
+      "scriptId":"u15"},
     "467b03a2529348a7a49b7ecf8fe336df":{
-      "scriptId":"u32"},
+      "scriptId":"u16"},
     "87b76a48676d40f9a27de7bcb9f3521d":{
-      "scriptId":"u33",
+      "scriptId":"u17",
       "f2ef4542332e41989a2c360a86a6df2b":{
-        "scriptId":"u34"},
+        "scriptId":"u18"},
       "3be3eb3150a54a60a65d70d38981a7bf":{
-        "scriptId":"u35"},
+        "scriptId":"u19"},
       "81ea4546eed64b6abfea7f86e5337273":{
-        "scriptId":"u36"},
+        "scriptId":"u20"},
       "a1133b112281405885f764ba66ccc361":{
-        "scriptId":"u37"}},
+        "scriptId":"u21"}},
     "6b6e6a3de4aa4c748a87ba14230cebe3":{
-      "scriptId":"u38"},
+      "scriptId":"u22"},
     "b80416f60d8e4441bfcdfffaa3927e6e":{
-      "scriptId":"u39"},
+      "scriptId":"u23"},
     "de95c5e188bc4f779d829f5396d37918":{
-      "scriptId":"u40"},
+      "scriptId":"u24"},
     "168aed17dd7147c99c40426d5558a132":{
-      "scriptId":"u41"},
+      "scriptId":"u25"},
     "ada44610b1c44d9598bf06772c7d9035":{
-      "scriptId":"u42"},
+      "scriptId":"u26"},
     "0bad558ad97d4b92a1d8475f0e61bfd6":{
-      "scriptId":"u43"},
+      "scriptId":"u27"},
     "85d02ec997f149758e3c2bff8ddfcdaf":{
-      "scriptId":"u44",
+      "scriptId":"u28",
       "f2ef4542332e41989a2c360a86a6df2b":{
-        "scriptId":"u45"},
+        "scriptId":"u29"},
       "3be3eb3150a54a60a65d70d38981a7bf":{
-        "scriptId":"u46"},
+        "scriptId":"u30"},
       "81ea4546eed64b6abfea7f86e5337273":{
-        "scriptId":"u47"},
+        "scriptId":"u31"},
       "a1133b112281405885f764ba66ccc361":{
-        "scriptId":"u48"}},
+        "scriptId":"u32"}},
     "4dbc1ece58334ac88ce6df03783b8e41":{
-      "scriptId":"u49"},
+      "scriptId":"u33"},
     "884ff7173efd4dedafbb8d406b47c78c":{
-      "scriptId":"u50"},
+      "scriptId":"u34"},
     "54318fff7adf432584d8216f783371bd":{
-      "scriptId":"u51"},
+      "scriptId":"u35"},
     "4564e15f40ee41749ea056fbe984b4b2":{
-      "scriptId":"u52"},
+      "scriptId":"u36"},
     "dfdb8b942b164d3188171e7b0e112603":{
-      "scriptId":"u53"},
+      "scriptId":"u37"},
     "11f316e9a4fe4470bb06354fcd5fec34":{
-      "scriptId":"u54"},
-    "0e1f5ad6c90d4cd393b25bbcd059b0ce":{
-      "scriptId":"u55"},
-    "0694a117f4494616961ee3e39cde45e3":{
-      "scriptId":"u56"},
-    "bb059c1d504e4ac4b91eeefec5fca242":{
-      "scriptId":"u57",
+      "scriptId":"u38"},
+    "0bd6980863fd4bb6909bfcc22f7b10e9":{
+      "scriptId":"u39"},
+    "c0733753b0184d0ca28fcf98a2421303":{
+      "scriptId":"u40"},
+    "c656ce5fa82a4edfb110832a41a3eb58":{
+      "scriptId":"u41"},
+    "e7f4250987bb4f66931fc64ba302f940":{
+      "scriptId":"u42"},
+    "4385d92aa1a945bf9951e171123e5f74":{
+      "scriptId":"u43",
       "b5506ea8a5cc4f2a8dc968f89a106fd8":{
+        "scriptId":"u44"},
+      "30e6787de25f44dea73ba6fe1bd50c0c":{
+        "scriptId":"u45"},
+      "a44e5786f65d47e18706ddcc9b34ef1c":{
+        "scriptId":"u46"},
+      "b62e39f2154a46e59f8300fc81d47dd8":{
+        "scriptId":"u47"},
+      "2f4622d1335a4523aa6c3020b28c84e9":{
+        "scriptId":"u48"},
+      "158eadccc266435bbc662f553c6b3c47":{
+        "scriptId":"u49"},
+      "3b6242d3da9a4a9693b23080d3f87cc6":{
+        "scriptId":"u50"},
+      "4ca62baf7aa2418f8e4203672cf661b7":{
+        "scriptId":"u51"}},
+    "98308f0a84174a47a760ba1fb4b33a3a":{
+      "scriptId":"u52",
+      "b5506ea8a5cc4f2a8dc968f89a106fd8":{
+        "scriptId":"u53"},
+      "30e6787de25f44dea73ba6fe1bd50c0c":{
+        "scriptId":"u54"},
+      "a44e5786f65d47e18706ddcc9b34ef1c":{
+        "scriptId":"u55"},
+      "b62e39f2154a46e59f8300fc81d47dd8":{
+        "scriptId":"u56"},
+      "2f4622d1335a4523aa6c3020b28c84e9":{
+        "scriptId":"u57"},
+      "158eadccc266435bbc662f553c6b3c47":{
         "scriptId":"u58"},
-      "30e6787de25f44dea73ba6fe1bd50c0c":{
+      "3b6242d3da9a4a9693b23080d3f87cc6":{
         "scriptId":"u59"},
-      "a44e5786f65d47e18706ddcc9b34ef1c":{
-        "scriptId":"u60"},
-      "b62e39f2154a46e59f8300fc81d47dd8":{
-        "scriptId":"u61"},
-      "2f4622d1335a4523aa6c3020b28c84e9":{
-        "scriptId":"u62"},
-      "158eadccc266435bbc662f553c6b3c47":{
-        "scriptId":"u63"},
-      "3b6242d3da9a4a9693b23080d3f87cc6":{
-        "scriptId":"u64"},
       "4ca62baf7aa2418f8e4203672cf661b7":{
-        "scriptId":"u65"}},
-    "775585f4e20b4f13a092d4ae2be963ad":{
-      "scriptId":"u66",
-      "b5506ea8a5cc4f2a8dc968f89a106fd8":{
-        "scriptId":"u67"},
-      "30e6787de25f44dea73ba6fe1bd50c0c":{
-        "scriptId":"u68"},
-      "a44e5786f65d47e18706ddcc9b34ef1c":{
-        "scriptId":"u69"},
-      "b62e39f2154a46e59f8300fc81d47dd8":{
-        "scriptId":"u70"},
-      "2f4622d1335a4523aa6c3020b28c84e9":{
-        "scriptId":"u71"},
-      "158eadccc266435bbc662f553c6b3c47":{
-        "scriptId":"u72"},
-      "3b6242d3da9a4a9693b23080d3f87cc6":{
-        "scriptId":"u73"},
-      "4ca62baf7aa2418f8e4203672cf661b7":{
-        "scriptId":"u74"}}}});
+        "scriptId":"u60"}},
+    "ac21e6701d144b6d81a0d38ffec35db2":{
+      "scriptId":"u61"},
+    "b93a925d53f04dc7b163516ede556cea":{
+      "scriptId":"u62"},
+    "5255a26171ab4ff39e6202ff74b3f239":{
+      "scriptId":"u63"},
+    "d0dd2460f63844baafd6dc0b5e68e3d2":{
+      "scriptId":"u64"},
+    "a1bf9149b35f451183faf122ed0dfc9f":{
+      "scriptId":"u65"},
+    "7e35bc25679b4256b7e4cc010bf2517f":{
+      "scriptId":"u66"},
+    "7b9aafee082c404b813b66ba4479eaa6":{
+      "scriptId":"u67"},
+    "eba95009beac42dcae540d5ab8c87d69":{
+      "scriptId":"u68"},
+    "d4dddbc9265f4764aef8d76a8bd32055":{
+      "scriptId":"u69"},
+    "0883b941f70b4df1bc5a3e73de531da6":{
+      "scriptId":"u70"},
+    "4cf88d0b30f946d4bd88c0151d599d57":{
+      "scriptId":"u71"},
+    "e3915b4763724c1f8666928c93651ded":{
+      "scriptId":"u72"},
+    "cb0b9f7296d94ca78e7ab27a9cba380e":{
+      "scriptId":"u73"},
+    "41b164983be84fc4846aedc0f73981c2":{
+      "scriptId":"u74"}}});
