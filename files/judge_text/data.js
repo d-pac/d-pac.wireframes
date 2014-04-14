@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"judge_text.html",
-  "generationDate":new Date(1396428148443.81),
+  "generationDate":new Date(1397485292272.41),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -34,20 +34,8 @@
             "isNewIfGroup":false,
             "actions":[{
                 "action":"setWidgetSize",
-                "description":"Set Size of winner confirmation popup to 0 x 0",
-                "objectsToResize":[{
-                    "objectPath":["467b03a2529348a7a49b7ecf8fe336df"],
-                    "sizeInfo":{
-                      "width":{
-                        "exprType":"stringLiteral",
-                        "value":"0",
-                        "stos":[]},
-                      "height":{
-                        "exprType":"stringLiteral",
-                        "value":"0",
-                        "stos":[]},
-                      "easing":"none",
-                      "duration":1000}}]}]}]}},
+                "description":"Set Size of Panel",
+                "objectsToResize":[]}]}]}},
     "diagram":{
       "objects":[{
           "id":"66e34840702941d0b6c6e5b75386019a",
@@ -58,7 +46,7 @@
           "style":{
             "location":{
               "x":446,
-              "y":110},
+              "y":115},
             "size":{
               "width":335,
               "height":37}},
@@ -74,7 +62,7 @@
               "style":{
                 "location":{
                   "x":446,
-                  "y":110},
+                  "y":115},
                 "size":{
                   "width":335,
                   "height":37}},
@@ -91,7 +79,7 @@
           "style":{
             "location":{
               "x":10,
-              "y":190},
+              "y":195},
             "size":{
               "width":1180,
               "height":150}},
@@ -109,36 +97,6 @@
 },
           "masterId":"14818115d01f47f99a32087a167b2c37"},
 {
-          "id":"d990ec6f7ce14ce3b5a0df19b7764813",
-          "label":"",
-          "type":"textArea",
-          "styleType":"textArea",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":630,
-              "y":390},
-            "size":{
-              "width":560,
-              "height":261}},
-          "adaptiveStyles":{
-}},
-{
-          "id":"df1c339efbe544a2b3dcf40d7391f10b",
-          "label":"",
-          "type":"textArea",
-          "styleType":"textArea",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":10,
-              "y":390},
-            "size":{
-              "width":560,
-              "height":261}},
-          "adaptiveStyles":{
-}},
-{
           "id":"948e94c1fe164040bfe13a0707d4796a",
           "label":"",
           "type":"buttonShape",
@@ -150,7 +108,7 @@
               "color":0xFF0099FF},
             "location":{
               "x":-10,
-              "y":1980},
+              "y":2045},
             "size":{
               "width":1200,
               "height":100},
@@ -170,7 +128,7 @@
                   "color":0xFF0099FF},
                 "location":{
                   "x":-10,
-                  "y":1980},
+                  "y":2045},
                 "size":{
                   "width":1200,
                   "height":100},
@@ -178,544 +136,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/judge_text/u14.png"}},
-{
-          "id":"467b03a2529348a7a49b7ecf8fe336df",
-          "label":"winner confirmation popup",
-          "type":"dynamicPanel",
-          "styleType":"dynamicPanel",
-          "visible":true,
-          "style":{
-            "size":{
-              "width":1286,
-              "height":1580}},
-          "adaptiveStyles":{
-},
-          "scrollbars":"none",
-          "fitToContent":false,
-          "propagate":false,
-          "diagrams":[{
-              "id":"4827071e13534095a0f25ad42c9bf152",
-              "label":"text F22 won",
-              "type":"Axure:PanelDiagram",
-              "objects":[{
-                  "id":"87b76a48676d40f9a27de7bcb9f3521d",
-                  "label":"",
-                  "parentDynamicPanel":"467b03a2529348a7a49b7ecf8fe336df",
-                  "type":"referenceDiagramObject",
-                  "styleType":"referenceDiagramObject",
-                  "visible":true,
-                  "style":{
-},
-                  "adaptiveStyles":{
-},
-                  "masterId":"f4885c44fb0d46de8c5935239991d560"},
-{
-                  "id":"6b6e6a3de4aa4c748a87ba14230cebe3",
-                  "label":"",
-                  "parentDynamicPanel":"467b03a2529348a7a49b7ecf8fe336df",
-                  "type":"buttonShape",
-                  "styleType":"paragraph",
-                  "visible":true,
-                  "style":{
-                    "fontSize":"28px",
-                    "location":{
-                      "x":390,
-                      "y":118},
-                    "size":{
-                      "width":457,
-                      "height":32}},
-                  "adaptiveStyles":{
-},
-                  "objects":[{
-                      "id":"b80416f60d8e4441bfcdfffaa3927e6e",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"467b03a2529348a7a49b7ecf8fe336df",
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
-                        "fontSize":"28px",
-                        "location":{
-                          "x":390,
-                          "y":118},
-                        "size":{
-                          "width":457,
-                          "height":32}},
-                      "adaptiveStyles":{
-}}],
-                  "images":{
-                    "normal~":"resources/images/transparent.gif"}},
-{
-                  "id":"de95c5e188bc4f779d829f5396d37918",
-                  "label":"",
-                  "parentDynamicPanel":"467b03a2529348a7a49b7ecf8fe336df",
-                  "type":"buttonShape",
-                  "styleType":"buttonShape",
-                  "visible":true,
-                  "style":{
-                    "location":{
-                      "x":760,
-                      "y":278},
-                    "size":{
-                      "width":100,
-                      "height":30},
-                    "cornerRadiusTopLeft":"5"},
-                  "adaptiveStyles":{
-},
-                  "objects":[{
-                      "id":"168aed17dd7147c99c40426d5558a132",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"467b03a2529348a7a49b7ecf8fe336df",
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
-                        "location":{
-                          "x":760,
-                          "y":278},
-                        "size":{
-                          "width":100,
-                          "height":30},
-                        "cornerRadiusTopLeft":"5"},
-                      "adaptiveStyles":{
-}}],
-                  "interactionMap":{
-                    "onClick":{
-                      "description":"OnClick",
-                      "cases":[{
-                          "description":"Case 1",
-                          "isNewIfGroup":false,
-                          "actions":[{
-                              "action":"linkWindow",
-                              "description":"Open Judge text in Current Window",
-                              "target":{
-                                "targetType":"page",
-                                "url":"judge_text.html",
-                                "includeVariables":true},
-                              "linkType":"current"}]}]}},
-                  "tabbable":true,
-                  "images":{
-                    "normal~":"images/frontpage/u3.png"}},
-{
-                  "id":"ada44610b1c44d9598bf06772c7d9035",
-                  "label":"",
-                  "parentDynamicPanel":"467b03a2529348a7a49b7ecf8fe336df",
-                  "type":"buttonShape",
-                  "styleType":"buttonShape",
-                  "visible":true,
-                  "style":{
-                    "location":{
-                      "x":390,
-                      "y":278},
-                    "size":{
-                      "width":100,
-                      "height":30},
-                    "cornerRadiusTopLeft":"5"},
-                  "adaptiveStyles":{
-},
-                  "objects":[{
-                      "id":"0bad558ad97d4b92a1d8475f0e61bfd6",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"467b03a2529348a7a49b7ecf8fe336df",
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
-                        "location":{
-                          "x":390,
-                          "y":278},
-                        "size":{
-                          "width":100,
-                          "height":30},
-                        "cornerRadiusTopLeft":"5"},
-                      "adaptiveStyles":{
-}}],
-                  "interactionMap":{
-                    "onClick":{
-                      "description":"OnClick",
-                      "cases":[{
-                          "description":"Case 1",
-                          "isNewIfGroup":false,
-                          "actions":[{
-                              "action":"linkWindow",
-                              "description":"Open Judge text in Current Window",
-                              "target":{
-                                "targetType":"page",
-                                "url":"judge_text.html",
-                                "includeVariables":true},
-                              "linkType":"current"}]}]}},
-                  "tabbable":true,
-                  "images":{
-                    "normal~":"images/frontpage/u3.png"}}],
-              "style":{
-                "fill":{
-                  "fillType":"solid",
-                  "color":0xFFFFFF},
-                "image":null,
-                "imageHorizontalAlignment":"near",
-                "imageVerticalAlignment":"near",
-                "imageRepeat":"auto"},
-              "adaptiveStyles":{
-}},
-{
-              "id":"26e40f1c5ddb4ed5a4bddf60d45b9504",
-              "label":"text Z4 won",
-              "type":"Axure:PanelDiagram",
-              "objects":[{
-                  "id":"85d02ec997f149758e3c2bff8ddfcdaf",
-                  "label":"",
-                  "parentDynamicPanel":"467b03a2529348a7a49b7ecf8fe336df",
-                  "type":"referenceDiagramObject",
-                  "styleType":"referenceDiagramObject",
-                  "visible":true,
-                  "style":{
-},
-                  "adaptiveStyles":{
-},
-                  "masterId":"f4885c44fb0d46de8c5935239991d560"},
-{
-                  "id":"4dbc1ece58334ac88ce6df03783b8e41",
-                  "label":"",
-                  "parentDynamicPanel":"467b03a2529348a7a49b7ecf8fe336df",
-                  "type":"buttonShape",
-                  "styleType":"paragraph",
-                  "visible":true,
-                  "style":{
-                    "fontSize":"28px",
-                    "location":{
-                      "x":319,
-                      "y":120},
-                    "size":{
-                      "width":442,
-                      "height":32}},
-                  "adaptiveStyles":{
-},
-                  "objects":[{
-                      "id":"884ff7173efd4dedafbb8d406b47c78c",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"467b03a2529348a7a49b7ecf8fe336df",
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
-                        "fontSize":"28px",
-                        "location":{
-                          "x":319,
-                          "y":120},
-                        "size":{
-                          "width":442,
-                          "height":32}},
-                      "adaptiveStyles":{
-}}],
-                  "images":{
-                    "normal~":"resources/images/transparent.gif"}},
-{
-                  "id":"54318fff7adf432584d8216f783371bd",
-                  "label":"",
-                  "parentDynamicPanel":"467b03a2529348a7a49b7ecf8fe336df",
-                  "type":"buttonShape",
-                  "styleType":"buttonShape",
-                  "visible":true,
-                  "style":{
-                    "location":{
-                      "x":664,
-                      "y":278},
-                    "size":{
-                      "width":100,
-                      "height":30},
-                    "cornerRadiusTopLeft":"5"},
-                  "adaptiveStyles":{
-},
-                  "objects":[{
-                      "id":"4564e15f40ee41749ea056fbe984b4b2",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"467b03a2529348a7a49b7ecf8fe336df",
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
-                        "location":{
-                          "x":664,
-                          "y":278},
-                        "size":{
-                          "width":100,
-                          "height":30},
-                        "cornerRadiusTopLeft":"5"},
-                      "adaptiveStyles":{
-}}],
-                  "interactionMap":{
-                    "onClick":{
-                      "description":"OnClick",
-                      "cases":[{
-                          "description":"Case 1",
-                          "isNewIfGroup":false,
-                          "actions":[{
-                              "action":"linkWindow",
-                              "description":"Open Judge text in Current Window",
-                              "target":{
-                                "targetType":"page",
-                                "url":"judge_text.html",
-                                "includeVariables":true},
-                              "linkType":"current"}]}]}},
-                  "tabbable":true,
-                  "images":{
-                    "normal~":"images/frontpage/u3.png"}},
-{
-                  "id":"dfdb8b942b164d3188171e7b0e112603",
-                  "label":"",
-                  "parentDynamicPanel":"467b03a2529348a7a49b7ecf8fe336df",
-                  "type":"buttonShape",
-                  "styleType":"buttonShape",
-                  "visible":true,
-                  "style":{
-                    "location":{
-                      "x":319,
-                      "y":278},
-                    "size":{
-                      "width":100,
-                      "height":30},
-                    "cornerRadiusTopLeft":"5"},
-                  "adaptiveStyles":{
-},
-                  "objects":[{
-                      "id":"11f316e9a4fe4470bb06354fcd5fec34",
-                      "label":"",
-                      "isContained":true,
-                      "parentDynamicPanel":"467b03a2529348a7a49b7ecf8fe336df",
-                      "type":"richTextPanel",
-                      "styleType":"paragraph",
-                      "visible":true,
-                      "style":{
-                        "location":{
-                          "x":319,
-                          "y":278},
-                        "size":{
-                          "width":100,
-                          "height":30},
-                        "cornerRadiusTopLeft":"5"},
-                      "adaptiveStyles":{
-}}],
-                  "interactionMap":{
-                    "onClick":{
-                      "description":"OnClick",
-                      "cases":[{
-                          "description":"Case 1",
-                          "isNewIfGroup":false,
-                          "actions":[{
-                              "action":"linkWindow",
-                              "description":"Open Judge text in Current Window",
-                              "target":{
-                                "targetType":"page",
-                                "url":"judge_text.html",
-                                "includeVariables":true},
-                              "linkType":"current"}]}]}},
-                  "tabbable":true,
-                  "images":{
-                    "normal~":"images/frontpage/u3.png"}}],
-              "style":{
-                "fill":{
-                  "fillType":"solid",
-                  "color":0xFFFFFF},
-                "image":null,
-                "imageHorizontalAlignment":"near",
-                "imageVerticalAlignment":"near",
-                "imageRepeat":"auto"},
-              "adaptiveStyles":{
-}}]},
-{
-          "id":"0bd6980863fd4bb6909bfcc22f7b10e9",
-          "label":"winner A button",
-          "type":"buttonShape",
-          "styleType":"buttonShape",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":329,
-              "y":715},
-            "size":{
-              "width":140,
-              "height":30},
-            "cornerRadiusTopLeft":"5"},
-          "adaptiveStyles":{
-},
-          "objects":[{
-              "id":"c0733753b0184d0ca28fcf98a2421303",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "location":{
-                  "x":329,
-                  "y":715},
-                "size":{
-                  "width":140,
-                  "height":30},
-                "cornerRadiusTopLeft":"5"},
-              "adaptiveStyles":{
-}}],
-          "interactionMap":{
-            "onClick":{
-              "description":"OnClick",
-              "cases":[{
-                  "description":"Case 1",
-                  "isNewIfGroup":false,
-                  "actions":[{
-                      "action":"scrollToWidget",
-                      "description":"Scroll to Assessor - Navigation logged in/(Image) (y only)",
-                      "objectPath":["e34ed8bbeddb48d0ab956f5bddda07a0",
-"21e93a6843644148a85b03371aa66f65"],
-                      "options":{
-                        "direction":"vertical"}},
-{
-                      "action":"setWidgetSize",
-                      "description":"Set Size of winner confirmation popup to 1250 x 1600",
-                      "objectsToResize":[{
-                          "objectPath":["467b03a2529348a7a49b7ecf8fe336df"],
-                          "sizeInfo":{
-                            "width":{
-                              "exprType":"stringLiteral",
-                              "value":"1250",
-                              "stos":[]},
-                            "height":{
-                              "exprType":"stringLiteral",
-                              "value":"1600",
-                              "stos":[]},
-                            "easing":"none",
-                            "duration":1000}}]},
-{
-                      "action":"setPanelState",
-                      "description":"Set winner confirmation popup to text F22 won",
-                      "panelsToStates":[{
-                          "panelPath":["467b03a2529348a7a49b7ecf8fe336df"],
-                          "stateInfo":{
-                            "setStateType":"diagram",
-                            "stateNumber":1,
-                            "stateValue":{
-                              "exprType":"stringLiteral",
-                              "value":"1",
-                              "stos":[]},
-                            "loop":false,
-                            "showWhenSet":false,
-                            "options":{
-                              "compress":false}}}]}]}]}},
-          "tabbable":true,
-          "images":{
-            "normal~":"images/judge_text/winner_a_button_u39.png"}},
-{
-          "id":"c656ce5fa82a4edfb110832a41a3eb58",
-          "label":"winner B button",
-          "type":"buttonShape",
-          "styleType":"buttonShape",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":969,
-              "y":715},
-            "size":{
-              "width":140,
-              "height":30},
-            "cornerRadiusTopLeft":"5"},
-          "adaptiveStyles":{
-},
-          "objects":[{
-              "id":"e7f4250987bb4f66931fc64ba302f940",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "location":{
-                  "x":969,
-                  "y":715},
-                "size":{
-                  "width":140,
-                  "height":30},
-                "cornerRadiusTopLeft":"5"},
-              "adaptiveStyles":{
-}}],
-          "interactionMap":{
-            "onClick":{
-              "description":"OnClick",
-              "cases":[{
-                  "description":"Case 1",
-                  "isNewIfGroup":false,
-                  "actions":[{
-                      "action":"scrollToWidget",
-                      "description":"Scroll to Assessor - Navigation logged in/(Image) (y only)",
-                      "objectPath":["e34ed8bbeddb48d0ab956f5bddda07a0",
-"21e93a6843644148a85b03371aa66f65"],
-                      "options":{
-                        "direction":"vertical"}},
-{
-                      "action":"setWidgetSize",
-                      "description":"Set Size of winner confirmation popup to 1250 x 1600",
-                      "objectsToResize":[{
-                          "objectPath":["467b03a2529348a7a49b7ecf8fe336df"],
-                          "sizeInfo":{
-                            "width":{
-                              "exprType":"stringLiteral",
-                              "value":"1250",
-                              "stos":[]},
-                            "height":{
-                              "exprType":"stringLiteral",
-                              "value":"1600",
-                              "stos":[]},
-                            "easing":"none",
-                            "duration":1000}}]},
-{
-                      "action":"setPanelState",
-                      "description":"Set winner confirmation popup to text Z4 won",
-                      "panelsToStates":[{
-                          "panelPath":["467b03a2529348a7a49b7ecf8fe336df"],
-                          "stateInfo":{
-                            "setStateType":"diagram",
-                            "stateNumber":2,
-                            "stateValue":{
-                              "exprType":"stringLiteral",
-                              "value":"1",
-                              "stos":[]},
-                            "loop":false,
-                            "showWhenSet":false,
-                            "options":{
-                              "compress":false}}}]}]}]}},
-          "tabbable":true,
-          "images":{
-            "normal~":"images/judge_text/winner_a_button_u39.png"}},
-{
-          "id":"4385d92aa1a945bf9951e171123e5f74",
-          "label":"",
-          "type":"referenceDiagramObject",
-          "styleType":"referenceDiagramObject",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":87,
-              "y":680}},
-          "adaptiveStyles":{
-},
-          "masterId":"cd8ed5398a604449bc3e5bd0e00b50ea"},
-{
-          "id":"98308f0a84174a47a760ba1fb4b33a3a",
-          "label":"",
-          "type":"referenceDiagramObject",
-          "styleType":"referenceDiagramObject",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":727,
-              "y":680}},
-          "adaptiveStyles":{
-},
-          "masterId":"cd8ed5398a604449bc3e5bd0e00b50ea"},
+            "normal~":"images/judge_text/u12.png"}},
 {
           "id":"ac21e6701d144b6d81a0d38ffec35db2",
           "label":"",
@@ -724,8 +145,8 @@
           "visible":true,
           "style":{
             "location":{
-              "x":227,
-              "y":803},
+              "x":228,
+              "y":358},
             "size":{
               "width":97,
               "height":28}},
@@ -740,8 +161,8 @@
               "visible":true,
               "style":{
                 "location":{
-                  "x":227,
-                  "y":803},
+                  "x":228,
+                  "y":358},
                 "size":{
                   "width":97,
                   "height":28}},
@@ -757,8 +178,8 @@
           "visible":true,
           "style":{
             "location":{
-              "x":867,
-              "y":800},
+              "x":868,
+              "y":355},
             "size":{
               "width":100,
               "height":28}},
@@ -773,8 +194,8 @@
               "visible":true,
               "style":{
                 "location":{
-                  "x":867,
-                  "y":800},
+                  "x":868,
+                  "y":355},
                 "size":{
                   "width":100,
                   "height":28}},
@@ -790,8 +211,8 @@
           "visible":true,
           "style":{
             "location":{
-              "x":9,
-              "y":846},
+              "x":10,
+              "y":401},
             "size":{
               "width":561,
               "height":810},
@@ -807,8 +228,8 @@
               "visible":true,
               "style":{
                 "location":{
-                  "x":9,
-                  "y":846},
+                  "x":10,
+                  "y":401},
                 "size":{
                   "width":561,
                   "height":810},
@@ -816,7 +237,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/judge_text/u65.png"}},
+            "normal~":"images/judge_text/u18.png"}},
 {
           "id":"7b9aafee082c404b813b66ba4479eaa6",
           "label":"",
@@ -825,8 +246,8 @@
           "visible":true,
           "style":{
             "location":{
-              "x":629,
-              "y":846},
+              "x":630,
+              "y":401},
             "size":{
               "width":560,
               "height":810},
@@ -842,8 +263,8 @@
               "visible":true,
               "style":{
                 "location":{
-                  "x":629,
-                  "y":846},
+                  "x":630,
+                  "y":401},
                 "size":{
                   "width":560,
                   "height":810},
@@ -851,7 +272,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/judge_text/u67.png"}},
+            "normal~":"images/judge_text/u20.png"}},
 {
           "id":"d4dddbc9265f4764aef8d76a8bd32055",
           "label":"",
@@ -860,8 +281,8 @@
           "visible":true,
           "style":{
             "location":{
-              "x":331,
-              "y":808},
+              "x":332,
+              "y":363},
             "size":{
               "width":17,
               "height":17},
@@ -877,8 +298,8 @@
               "visible":true,
               "style":{
                 "location":{
-                  "x":331,
-                  "y":808},
+                  "x":332,
+                  "y":363},
                 "size":{
                   "width":17,
                   "height":17},
@@ -886,7 +307,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/judge_text/u69.png"}},
+            "normal~":"images/judge_text/u22.png"}},
 {
           "id":"4cf88d0b30f946d4bd88c0151d599d57",
           "label":"",
@@ -895,8 +316,8 @@
           "visible":true,
           "style":{
             "location":{
-              "x":971,
-              "y":806},
+              "x":972,
+              "y":361},
             "size":{
               "width":17,
               "height":17},
@@ -912,8 +333,8 @@
               "visible":true,
               "style":{
                 "location":{
-                  "x":971,
-                  "y":806},
+                  "x":972,
+                  "y":361},
                 "size":{
                   "width":17,
                   "height":17},
@@ -921,7 +342,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/judge_text/u69.png"}},
+            "normal~":"images/judge_text/u22.png"}},
 {
           "id":"cb0b9f7296d94ca78e7ab27a9cba380e",
           "label":"",
@@ -930,8 +351,8 @@
           "visible":true,
           "style":{
             "location":{
-              "x":630,
-              "y":1685},
+              "x":631,
+              "y":1240},
             "size":{
               "width":560,
               "height":260}},
@@ -945,13 +366,619 @@
           "visible":true,
           "style":{
             "location":{
-              "x":10,
-              "y":1685},
+              "x":11,
+              "y":1240},
             "size":{
               "width":560,
               "height":260}},
           "adaptiveStyles":{
-}}]}},
+}},
+{
+          "id":"b607696d51244291b0f39c58ed335861",
+          "label":"Bottow panel",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":10,
+              "y":1514},
+            "size":{
+              "width":1180,
+              "height":470}},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":false,
+          "propagate":false,
+          "diagrams":[{
+              "id":"a6b0224bfed64d588627f69627e0d984",
+              "label":"Comparative fb and winner",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"0e4ccd11698b4761b616f903a1cdc9a8",
+                  "label":"",
+                  "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                  "type":"textArea",
+                  "styleType":"textArea",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":0,
+                      "y":39},
+                    "size":{
+                      "width":1180,
+                      "height":260}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"2356e11b34fa4d68abfe6782e6cbc4a2",
+                  "label":"winner A button",
+                  "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":220,
+                      "y":329},
+                    "size":{
+                      "width":140,
+                      "height":30},
+                    "cornerRadiusTopLeft":"5"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"d6e63e75dc1a4e85a7ebe2007c543331",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":220,
+                          "y":329},
+                        "size":{
+                          "width":140,
+                          "height":30},
+                        "cornerRadiusTopLeft":"5"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"switch bottom panel",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set Bottow panel to F22 Unique feedback and pass/fail",
+                              "panelsToStates":[{
+                                  "panelPath":["b607696d51244291b0f39c58ed335861"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":2,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/judge_text/winner_a_button_u30.png"}},
+{
+                  "id":"ca750648c46348c5a5694921251589a4",
+                  "label":"winner B button",
+                  "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":800,
+                      "y":329},
+                    "size":{
+                      "width":140,
+                      "height":30},
+                    "cornerRadiusTopLeft":"5"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"3de380b8f0a04f3e92fa68ea3ae3fcd3",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":800,
+                          "y":329},
+                        "size":{
+                          "width":140,
+                          "height":30},
+                        "cornerRadiusTopLeft":"5"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set Bottow panel to Z4 Unique feedback and pass/fail",
+                              "panelsToStates":[{
+                                  "panelPath":["b607696d51244291b0f39c58ed335861"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":3,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/judge_text/winner_a_button_u30.png"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"ba558407cca24ac68375ec22a79ddfb4",
+              "label":"F22 Unique feedback and pass/fail",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"58ab3fc4241642ad9aa6ea490d01102d",
+                  "label":"",
+                  "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                  "type":"textArea",
+                  "styleType":"textArea",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":620,
+                      "y":42},
+                    "size":{
+                      "width":560,
+                      "height":261}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"0ee5702d438642c988d8b36d5b5ae8cf",
+                  "label":"",
+                  "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                  "type":"textArea",
+                  "styleType":"textArea",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":0,
+                      "y":42},
+                    "size":{
+                      "width":560,
+                      "height":261}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"ece8781e26ec4ecc8300d253ba5a6823",
+                  "label":"",
+                  "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                  "type":"referenceDiagramObject",
+                  "styleType":"referenceDiagramObject",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":195,
+                      "y":332}},
+                  "adaptiveStyles":{
+},
+                  "masterId":"cd8ed5398a604449bc3e5bd0e00b50ea"},
+{
+                  "id":"b81611b43c73440d9cb6b6e85b0a276e",
+                  "label":"",
+                  "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                  "type":"referenceDiagramObject",
+                  "styleType":"referenceDiagramObject",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":820,
+                      "y":332}},
+                  "adaptiveStyles":{
+},
+                  "masterId":"cd8ed5398a604449bc3e5bd0e00b50ea"},
+{
+                  "id":"e3f011655669401b907075ae1c32f657",
+                  "label":"",
+                  "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":540,
+                      "y":451},
+                    "size":{
+                      "width":100,
+                      "height":19},
+                    "cornerRadiusTopLeft":"5"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"7c623cf672534d06bab9a434b399852a",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":540,
+                          "y":451},
+                        "size":{
+                          "width":100,
+                          "height":19},
+                        "cornerRadiusTopLeft":"5"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkWindow",
+                              "description":"Open Judge text in Current Window",
+                              "target":{
+                                "targetType":"page",
+                                "url":"judge_text.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/judge_text/u54.png"}},
+{
+                  "id":"523df588e37942f397bdf44dc9ffcb1c",
+                  "label":"",
+                  "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                  "type":"buttonShape",
+                  "styleType":"h2",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":476,
+                      "y":4},
+                    "size":{
+                      "width":196,
+                      "height":28}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"c759a31face24ff59e4d7184f7baa0e3",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":476,
+                          "y":4},
+                        "size":{
+                          "width":196,
+                          "height":28}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}},
+{
+                  "id":"58b3e6e1749244ef9cd6feb4980c7ff4",
+                  "label":"",
+                  "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":685,
+                      "y":11},
+                    "size":{
+                      "width":45,
+                      "height":15}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"dd1a840fbdb64250b0723aa5357269ce",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":685,
+                          "y":11},
+                        "size":{
+                          "width":45,
+                          "height":15}},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set Bottow panel to Comparative fb and winner",
+                              "panelsToStates":[{
+                                  "panelPath":["b607696d51244291b0f39c58ed335861"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":1,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"2ae69359ce1d46dfa47cb6a7e5efd3eb",
+              "label":"Z4 Unique feedback and pass/fail",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"5e3c3a95411b46eea96f93c92c50a6b4",
+                  "label":"",
+                  "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                  "type":"textArea",
+                  "styleType":"textArea",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":620,
+                      "y":42},
+                    "size":{
+                      "width":560,
+                      "height":261}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"69d197e46ce74732873570a1cacc108e",
+                  "label":"",
+                  "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                  "type":"textArea",
+                  "styleType":"textArea",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":0,
+                      "y":42},
+                    "size":{
+                      "width":560,
+                      "height":261}},
+                  "adaptiveStyles":{
+}},
+{
+                  "id":"d41bd7900acd4baea8aad97557c33cfe",
+                  "label":"",
+                  "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                  "type":"referenceDiagramObject",
+                  "styleType":"referenceDiagramObject",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":195,
+                      "y":332}},
+                  "adaptiveStyles":{
+},
+                  "masterId":"cd8ed5398a604449bc3e5bd0e00b50ea"},
+{
+                  "id":"d26f616ea2fa484baadd7ee6de0750f1",
+                  "label":"",
+                  "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                  "type":"referenceDiagramObject",
+                  "styleType":"referenceDiagramObject",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":820,
+                      "y":332}},
+                  "adaptiveStyles":{
+},
+                  "masterId":"cd8ed5398a604449bc3e5bd0e00b50ea"},
+{
+                  "id":"4b0d90dc74144050b74bc0adba216484",
+                  "label":"",
+                  "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":540,
+                      "y":451},
+                    "size":{
+                      "width":100,
+                      "height":19},
+                    "cornerRadiusTopLeft":"5"},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"cf6e83e6567c4d098b26c1bb501c9bd8",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":540,
+                          "y":451},
+                        "size":{
+                          "width":100,
+                          "height":19},
+                        "cornerRadiusTopLeft":"5"},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkWindow",
+                              "description":"Open Judge text in Current Window",
+                              "target":{
+                                "targetType":"page",
+                                "url":"judge_text.html",
+                                "includeVariables":true},
+                              "linkType":"current"}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"images/judge_text/u54.png"}},
+{
+                  "id":"b76779d0532f483b8f0bee1a94bbae95",
+                  "label":"",
+                  "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                  "type":"buttonShape",
+                  "styleType":"h2",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":476,
+                      "y":4},
+                    "size":{
+                      "width":182,
+                      "height":28}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"23ef7be753164b2ca93db1f2dbffc13d",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":476,
+                          "y":4},
+                        "size":{
+                          "width":182,
+                          "height":28}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}},
+{
+                  "id":"11048e8d3c1e4ac4bb91c63ab2d3155c",
+                  "label":"",
+                  "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":665,
+                      "y":14},
+                    "size":{
+                      "width":45,
+                      "height":15}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"565a2f3ea7fb47e195f750b8fb52dff5",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"b607696d51244291b0f39c58ed335861",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "location":{
+                          "x":665,
+                          "y":14},
+                        "size":{
+                          "width":45,
+                          "height":15}},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set Bottow panel to Comparative fb and winner",
+                              "panelsToStates":[{
+                                  "panelPath":["b607696d51244291b0f39c58ed335861"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":1,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]}]}},
   "masters":{
     "14818115d01f47f99a32087a167b2c37":{
       "packageId":"14818115d01f47f99a32087a167b2c37",
@@ -1162,124 +1189,6 @@
             "tabbable":true,
             "images":{
               "normal~":"images/frontpage/u3.png"}}]}},
-    "f4885c44fb0d46de8c5935239991d560":{
-      "packageId":"f4885c44fb0d46de8c5935239991d560",
-      "type":"Axure:Master",
-      "name":"Asessor - Judgement popup background",
-      "notes":{
-},
-      "style":{
-        "baseStyle":"627587b6038d43cca051c114ac41ad32",
-        "pageAlignment":"near",
-        "fill":{
-          "fillType":"solid",
-          "color":0xFFFFFFFF},
-        "image":null,
-        "imageHorizontalAlignment":"near",
-        "imageVerticalAlignment":"near",
-        "imageRepeat":"auto",
-        "favicon":null,
-        "sketchFactor":"0",
-        "colorStyle":"appliedColor",
-        "fontName":"Applied Font",
-        "borderWidth":"0"},
-      "adaptiveStyles":{
-},
-      "interactionMap":{
-},
-      "diagram":{
-        "objects":[{
-            "id":"f2ef4542332e41989a2c360a86a6df2b",
-            "label":"Rectangle",
-            "type":"buttonShape",
-            "styleType":"buttonShape",
-            "visible":true,
-            "style":{
-              "opacity":"0.8",
-              "fill":{
-                "fillType":"solid",
-                "color":0xFF999999},
-              "location":{
-                "x":-350,
-                "y":-270},
-              "size":{
-                "width":1550,
-                "height":1570},
-              "borderFill":{
-                "fillType":"solid",
-                "color":0xFF999999}},
-            "adaptiveStyles":{
-},
-            "objects":[{
-                "id":"3be3eb3150a54a60a65d70d38981a7bf",
-                "label":"",
-                "isContained":true,
-                "type":"richTextPanel",
-                "styleType":"paragraph",
-                "visible":true,
-                "style":{
-                  "opacity":"0.8",
-                  "fill":{
-                    "fillType":"solid",
-                    "color":0xFF999999},
-                  "location":{
-                    "x":-350,
-                    "y":-270},
-                  "size":{
-                    "width":1550,
-                    "height":1570},
-                  "borderFill":{
-                    "fillType":"solid",
-                    "color":0xFF999999}},
-                "adaptiveStyles":{
-}}],
-            "images":{
-              "normal~":"images/judge_text/rectangle_u18.png",
-              "normal~":"images/judge_text/rectangle_u18.png"}},
-{
-            "id":"81ea4546eed64b6abfea7f86e5337273",
-            "label":"",
-            "type":"buttonShape",
-            "styleType":"buttonShape",
-            "visible":true,
-            "style":{
-              "opacity":"0.8",
-              "fill":{
-                "fillType":"solid",
-                "color":0xFF0099FF},
-              "location":{
-                "x":230,
-                "y":50},
-              "size":{
-                "width":740,
-                "height":340},
-              "cornerRadiusTopLeft":"10"},
-            "adaptiveStyles":{
-},
-            "objects":[{
-                "id":"a1133b112281405885f764ba66ccc361",
-                "label":"",
-                "isContained":true,
-                "type":"richTextPanel",
-                "styleType":"paragraph",
-                "visible":true,
-                "style":{
-                  "opacity":"0.8",
-                  "fill":{
-                    "fillType":"solid",
-                    "color":0xFF0099FF},
-                  "location":{
-                    "x":230,
-                    "y":50},
-                  "size":{
-                    "width":740,
-                    "height":340},
-                  "cornerRadiusTopLeft":"10"},
-                "adaptiveStyles":{
-}}],
-            "images":{
-              "normal~":"images/judge_text/u20.png",
-              "normal~":"images/judge_text/u20.png"}}]}},
     "cd8ed5398a604449bc3e5bd0e00b50ea":{
       "packageId":"cd8ed5398a604449bc3e5bd0e00b50ea",
       "type":"Axure:Master",
@@ -1344,8 +1253,10 @@
                 "adaptiveStyles":{
 }}],
             "images":{
-              "normal~":"images/judge_text/u44.png",
-              "normal~":"images/judge_text/u44.png"}},
+              "normal~":"images/judge_text/u37.png",
+              "normal~":"images/judge_text/u37.png",
+              "normal~":"images/judge_text/u37.png",
+              "normal~":"images/judge_text/u37.png"}},
 {
             "id":"a44e5786f65d47e18706ddcc9b34ef1c",
             "label":"",
@@ -1464,129 +1375,151 @@
         "scriptId":"u10"},
       "59bde9dac5084b7ca662286523ad3b20":{
         "scriptId":"u11"}},
-    "d990ec6f7ce14ce3b5a0df19b7764813":{
-      "scriptId":"u12"},
-    "df1c339efbe544a2b3dcf40d7391f10b":{
-      "scriptId":"u13"},
     "948e94c1fe164040bfe13a0707d4796a":{
-      "scriptId":"u14"},
+      "scriptId":"u12"},
     "c69d61749d5a4cc9907740bb19baeb8a":{
-      "scriptId":"u15"},
-    "467b03a2529348a7a49b7ecf8fe336df":{
-      "scriptId":"u16"},
-    "87b76a48676d40f9a27de7bcb9f3521d":{
-      "scriptId":"u17",
-      "f2ef4542332e41989a2c360a86a6df2b":{
-        "scriptId":"u18"},
-      "3be3eb3150a54a60a65d70d38981a7bf":{
-        "scriptId":"u19"},
-      "81ea4546eed64b6abfea7f86e5337273":{
-        "scriptId":"u20"},
-      "a1133b112281405885f764ba66ccc361":{
-        "scriptId":"u21"}},
-    "6b6e6a3de4aa4c748a87ba14230cebe3":{
-      "scriptId":"u22"},
-    "b80416f60d8e4441bfcdfffaa3927e6e":{
-      "scriptId":"u23"},
-    "de95c5e188bc4f779d829f5396d37918":{
-      "scriptId":"u24"},
-    "168aed17dd7147c99c40426d5558a132":{
-      "scriptId":"u25"},
-    "ada44610b1c44d9598bf06772c7d9035":{
-      "scriptId":"u26"},
-    "0bad558ad97d4b92a1d8475f0e61bfd6":{
-      "scriptId":"u27"},
-    "85d02ec997f149758e3c2bff8ddfcdaf":{
-      "scriptId":"u28",
-      "f2ef4542332e41989a2c360a86a6df2b":{
-        "scriptId":"u29"},
-      "3be3eb3150a54a60a65d70d38981a7bf":{
-        "scriptId":"u30"},
-      "81ea4546eed64b6abfea7f86e5337273":{
-        "scriptId":"u31"},
-      "a1133b112281405885f764ba66ccc361":{
-        "scriptId":"u32"}},
-    "4dbc1ece58334ac88ce6df03783b8e41":{
-      "scriptId":"u33"},
-    "884ff7173efd4dedafbb8d406b47c78c":{
-      "scriptId":"u34"},
-    "54318fff7adf432584d8216f783371bd":{
-      "scriptId":"u35"},
-    "4564e15f40ee41749ea056fbe984b4b2":{
-      "scriptId":"u36"},
-    "dfdb8b942b164d3188171e7b0e112603":{
-      "scriptId":"u37"},
-    "11f316e9a4fe4470bb06354fcd5fec34":{
-      "scriptId":"u38"},
-    "0bd6980863fd4bb6909bfcc22f7b10e9":{
-      "scriptId":"u39"},
-    "c0733753b0184d0ca28fcf98a2421303":{
-      "scriptId":"u40"},
-    "c656ce5fa82a4edfb110832a41a3eb58":{
-      "scriptId":"u41"},
-    "e7f4250987bb4f66931fc64ba302f940":{
-      "scriptId":"u42"},
-    "4385d92aa1a945bf9951e171123e5f74":{
-      "scriptId":"u43",
-      "b5506ea8a5cc4f2a8dc968f89a106fd8":{
-        "scriptId":"u44"},
-      "30e6787de25f44dea73ba6fe1bd50c0c":{
-        "scriptId":"u45"},
-      "a44e5786f65d47e18706ddcc9b34ef1c":{
-        "scriptId":"u46"},
-      "b62e39f2154a46e59f8300fc81d47dd8":{
-        "scriptId":"u47"},
-      "2f4622d1335a4523aa6c3020b28c84e9":{
-        "scriptId":"u48"},
-      "158eadccc266435bbc662f553c6b3c47":{
-        "scriptId":"u49"},
-      "3b6242d3da9a4a9693b23080d3f87cc6":{
-        "scriptId":"u50"},
-      "4ca62baf7aa2418f8e4203672cf661b7":{
-        "scriptId":"u51"}},
-    "98308f0a84174a47a760ba1fb4b33a3a":{
-      "scriptId":"u52",
-      "b5506ea8a5cc4f2a8dc968f89a106fd8":{
-        "scriptId":"u53"},
-      "30e6787de25f44dea73ba6fe1bd50c0c":{
-        "scriptId":"u54"},
-      "a44e5786f65d47e18706ddcc9b34ef1c":{
-        "scriptId":"u55"},
-      "b62e39f2154a46e59f8300fc81d47dd8":{
-        "scriptId":"u56"},
-      "2f4622d1335a4523aa6c3020b28c84e9":{
-        "scriptId":"u57"},
-      "158eadccc266435bbc662f553c6b3c47":{
-        "scriptId":"u58"},
-      "3b6242d3da9a4a9693b23080d3f87cc6":{
-        "scriptId":"u59"},
-      "4ca62baf7aa2418f8e4203672cf661b7":{
-        "scriptId":"u60"}},
+      "scriptId":"u13"},
     "ac21e6701d144b6d81a0d38ffec35db2":{
-      "scriptId":"u61"},
+      "scriptId":"u14"},
     "b93a925d53f04dc7b163516ede556cea":{
-      "scriptId":"u62"},
+      "scriptId":"u15"},
     "5255a26171ab4ff39e6202ff74b3f239":{
-      "scriptId":"u63"},
+      "scriptId":"u16"},
     "d0dd2460f63844baafd6dc0b5e68e3d2":{
-      "scriptId":"u64"},
+      "scriptId":"u17"},
     "a1bf9149b35f451183faf122ed0dfc9f":{
-      "scriptId":"u65"},
+      "scriptId":"u18"},
     "7e35bc25679b4256b7e4cc010bf2517f":{
-      "scriptId":"u66"},
+      "scriptId":"u19"},
     "7b9aafee082c404b813b66ba4479eaa6":{
-      "scriptId":"u67"},
+      "scriptId":"u20"},
     "eba95009beac42dcae540d5ab8c87d69":{
-      "scriptId":"u68"},
+      "scriptId":"u21"},
     "d4dddbc9265f4764aef8d76a8bd32055":{
-      "scriptId":"u69"},
+      "scriptId":"u22"},
     "0883b941f70b4df1bc5a3e73de531da6":{
-      "scriptId":"u70"},
+      "scriptId":"u23"},
     "4cf88d0b30f946d4bd88c0151d599d57":{
-      "scriptId":"u71"},
+      "scriptId":"u24"},
     "e3915b4763724c1f8666928c93651ded":{
-      "scriptId":"u72"},
+      "scriptId":"u25"},
     "cb0b9f7296d94ca78e7ab27a9cba380e":{
-      "scriptId":"u73"},
+      "scriptId":"u26"},
     "41b164983be84fc4846aedc0f73981c2":{
-      "scriptId":"u74"}}});
+      "scriptId":"u27"},
+    "b607696d51244291b0f39c58ed335861":{
+      "scriptId":"u28"},
+    "0e4ccd11698b4761b616f903a1cdc9a8":{
+      "scriptId":"u29"},
+    "2356e11b34fa4d68abfe6782e6cbc4a2":{
+      "scriptId":"u30"},
+    "d6e63e75dc1a4e85a7ebe2007c543331":{
+      "scriptId":"u31"},
+    "ca750648c46348c5a5694921251589a4":{
+      "scriptId":"u32"},
+    "3de380b8f0a04f3e92fa68ea3ae3fcd3":{
+      "scriptId":"u33"},
+    "58ab3fc4241642ad9aa6ea490d01102d":{
+      "scriptId":"u34"},
+    "0ee5702d438642c988d8b36d5b5ae8cf":{
+      "scriptId":"u35"},
+    "ece8781e26ec4ecc8300d253ba5a6823":{
+      "scriptId":"u36",
+      "b5506ea8a5cc4f2a8dc968f89a106fd8":{
+        "scriptId":"u37"},
+      "30e6787de25f44dea73ba6fe1bd50c0c":{
+        "scriptId":"u38"},
+      "a44e5786f65d47e18706ddcc9b34ef1c":{
+        "scriptId":"u39"},
+      "b62e39f2154a46e59f8300fc81d47dd8":{
+        "scriptId":"u40"},
+      "2f4622d1335a4523aa6c3020b28c84e9":{
+        "scriptId":"u41"},
+      "158eadccc266435bbc662f553c6b3c47":{
+        "scriptId":"u42"},
+      "3b6242d3da9a4a9693b23080d3f87cc6":{
+        "scriptId":"u43"},
+      "4ca62baf7aa2418f8e4203672cf661b7":{
+        "scriptId":"u44"}},
+    "b81611b43c73440d9cb6b6e85b0a276e":{
+      "scriptId":"u45",
+      "b5506ea8a5cc4f2a8dc968f89a106fd8":{
+        "scriptId":"u46"},
+      "30e6787de25f44dea73ba6fe1bd50c0c":{
+        "scriptId":"u47"},
+      "a44e5786f65d47e18706ddcc9b34ef1c":{
+        "scriptId":"u48"},
+      "b62e39f2154a46e59f8300fc81d47dd8":{
+        "scriptId":"u49"},
+      "2f4622d1335a4523aa6c3020b28c84e9":{
+        "scriptId":"u50"},
+      "158eadccc266435bbc662f553c6b3c47":{
+        "scriptId":"u51"},
+      "3b6242d3da9a4a9693b23080d3f87cc6":{
+        "scriptId":"u52"},
+      "4ca62baf7aa2418f8e4203672cf661b7":{
+        "scriptId":"u53"}},
+    "e3f011655669401b907075ae1c32f657":{
+      "scriptId":"u54"},
+    "7c623cf672534d06bab9a434b399852a":{
+      "scriptId":"u55"},
+    "523df588e37942f397bdf44dc9ffcb1c":{
+      "scriptId":"u56"},
+    "c759a31face24ff59e4d7184f7baa0e3":{
+      "scriptId":"u57"},
+    "58b3e6e1749244ef9cd6feb4980c7ff4":{
+      "scriptId":"u58"},
+    "dd1a840fbdb64250b0723aa5357269ce":{
+      "scriptId":"u59"},
+    "5e3c3a95411b46eea96f93c92c50a6b4":{
+      "scriptId":"u60"},
+    "69d197e46ce74732873570a1cacc108e":{
+      "scriptId":"u61"},
+    "d41bd7900acd4baea8aad97557c33cfe":{
+      "scriptId":"u62",
+      "b5506ea8a5cc4f2a8dc968f89a106fd8":{
+        "scriptId":"u63"},
+      "30e6787de25f44dea73ba6fe1bd50c0c":{
+        "scriptId":"u64"},
+      "a44e5786f65d47e18706ddcc9b34ef1c":{
+        "scriptId":"u65"},
+      "b62e39f2154a46e59f8300fc81d47dd8":{
+        "scriptId":"u66"},
+      "2f4622d1335a4523aa6c3020b28c84e9":{
+        "scriptId":"u67"},
+      "158eadccc266435bbc662f553c6b3c47":{
+        "scriptId":"u68"},
+      "3b6242d3da9a4a9693b23080d3f87cc6":{
+        "scriptId":"u69"},
+      "4ca62baf7aa2418f8e4203672cf661b7":{
+        "scriptId":"u70"}},
+    "d26f616ea2fa484baadd7ee6de0750f1":{
+      "scriptId":"u71",
+      "b5506ea8a5cc4f2a8dc968f89a106fd8":{
+        "scriptId":"u72"},
+      "30e6787de25f44dea73ba6fe1bd50c0c":{
+        "scriptId":"u73"},
+      "a44e5786f65d47e18706ddcc9b34ef1c":{
+        "scriptId":"u74"},
+      "b62e39f2154a46e59f8300fc81d47dd8":{
+        "scriptId":"u75"},
+      "2f4622d1335a4523aa6c3020b28c84e9":{
+        "scriptId":"u76"},
+      "158eadccc266435bbc662f553c6b3c47":{
+        "scriptId":"u77"},
+      "3b6242d3da9a4a9693b23080d3f87cc6":{
+        "scriptId":"u78"},
+      "4ca62baf7aa2418f8e4203672cf661b7":{
+        "scriptId":"u79"}},
+    "4b0d90dc74144050b74bc0adba216484":{
+      "scriptId":"u80"},
+    "cf6e83e6567c4d098b26c1bb501c9bd8":{
+      "scriptId":"u81"},
+    "b76779d0532f483b8f0bee1a94bbae95":{
+      "scriptId":"u82"},
+    "23ef7be753164b2ca93db1f2dbffc13d":{
+      "scriptId":"u83"},
+    "11048e8d3c1e4ac4bb91c63ab2d3155c":{
+      "scriptId":"u84"},
+    "565a2f3ea7fb47e195f750b8fb52dff5":{
+      "scriptId":"u85"}}});

@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"judge_video.html",
-  "generationDate":new Date(1396428149096.19),
+  "generationDate":new Date(1397485293317.4),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -659,7 +659,7 @@
                               "compress":false}}}]}]}]}},
           "tabbable":true,
           "images":{
-            "normal~":"images/judge_text/winner_a_button_u39.png"}},
+            "normal~":"images/judge_text/winner_a_button_u30.png"}},
 {
           "id":"dfee7405918a4f429a125cf259fcec2f",
           "label":"winner B button",
@@ -733,7 +733,7 @@
                               "compress":false}}}]}]}]}},
           "tabbable":true,
           "images":{
-            "normal~":"images/judge_text/winner_a_button_u39.png"}},
+            "normal~":"images/judge_text/winner_a_button_u30.png"}},
 {
           "id":"948e94c1fe164040bfe13a0707d4796a",
           "label":"",
@@ -1057,8 +1057,8 @@
                 "adaptiveStyles":{
 }}],
             "images":{
-              "normal~":"images/judge_text/rectangle_u18.png",
-              "normal~":"images/judge_text/rectangle_u18.png"}},
+              "normal~":"images/judge_video/rectangle_u22.png",
+              "normal~":"images/judge_video/rectangle_u22.png"}},
 {
             "id":"81ea4546eed64b6abfea7f86e5337273",
             "label":"",
@@ -1101,8 +1101,8 @@
                 "adaptiveStyles":{
 }}],
             "images":{
-              "normal~":"images/judge_text/u20.png",
-              "normal~":"images/judge_text/u20.png"}}]}}},
+              "normal~":"images/judge_video/u24.png",
+              "normal~":"images/judge_video/u24.png"}}]}}},
   "objectPaths":{
     "3392d7dc7ee441779e5f3cd887c6ba6b":{
       "scriptId":"u0"},
