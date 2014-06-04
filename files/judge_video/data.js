@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"judge_video.html",
-  "generationDate":new Date(1397485293317.4),
+  "generationDate":new Date(1401888980892.86),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
