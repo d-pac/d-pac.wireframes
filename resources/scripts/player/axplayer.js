@@ -30,10 +30,10 @@ function setUpController() {
 
     var _getLinkUrl = function(baseUrl) {
         var toAdd = '';
-        for (var globalVarName in _globalVars) {
+        for(var globalVarName in _globalVars) {
             var val = _globalVars[globalVarName];
-            if (val != null && val.length > 0) {
-                if (toAdd.length > 0) toAdd += '&';
+            if(val != null && val.length > 0) {
+                if(toAdd.length > 0) toAdd += '&';
                 toAdd += globalVarName + '=' + encodeURIComponent(val);
             }
         }

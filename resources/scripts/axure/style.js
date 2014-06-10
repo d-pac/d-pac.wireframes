@@ -155,6 +155,7 @@
             var viewChain = $ax.adaptive.getAdaptiveIdChain($ax.adaptive.currentViewId);
             viewChain[viewChain.length] = '';
             var obj = $obj(id);
+            if(obj.type == "dynamicPanel") return SELECTED;
 
             var any = function(dict) {
                 for(var key in dict) return true;
@@ -164,7 +165,8 @@
             for(var i = 0; i < viewChain.length; i++) {
                 var viewId = viewChain[i];
                 // Need to check seperately for images.
-                if((obj.adaptiveStyles && obj.adaptiveStyles[viewId] && any(obj.adaptiveStyles[viewId])) || obj.images['selected~' + viewId]) return SELECTED;
+                if(obj.adaptiveStyles && obj.adaptiveStyles[viewId] && any(obj.adaptiveStyles[viewId])
+                 || obj.images && obj.images['selected~' + viewId]) return SELECTED;
             }
             var selectedStyle = obj.style && obj.style.stateStyles && obj.style.stateStyles.selected;
             if(selectedStyle && any(selectedStyle)) return SELECTED;
@@ -249,7 +251,9 @@
         var obj = $jobj(inputId);
         if(!value) {
             obj.attr('style', '');
-            if(password) document.getElementById(inputId).type = 'password';
+            try { //ie8 and below error
+                if(password) document.getElementById(inputId).type = 'password';
+            } catch(e) { }
         } else {
             var style = _computeAllOverrides(id, undefined, HINT, $ax.adaptive.currentViewId);
             var styleProperties = _getCssStyleProperties(style);
@@ -258,7 +262,9 @@
             if(style.fill) styleProperties.runProps.backgroundColor = _getColorFromFill(style.fill);
 
             _applyCssProps($('#' + inputId)[0], styleProperties);
-            if(password) document.getElementById(inputId).type = 'text';
+            try { //ie8 and below error
+                if(password) document.getElementById(inputId).type = 'text';
+            } catch(e) { }
         }
         obj.val(text);
     };
@@ -307,8 +313,8 @@
 
         if(!state) state = _generateState(elementId);
 
-
-        var style = $obj(elementId).style;
+        var obj = $obj(elementId);
+        var style = obj.style;
         var stateStyle = state == NORMAL ? style : style && style.stateStyles && style.stateStyles[state];
         if(!stateStyle && !_style.getElementImageOverride(elementId, state)) {
             state = _progessState(state);
@@ -317,6 +323,7 @@
         }
 
         var computedStyle = _style.computeAllOverrides(elementId, undefined, state, $ax.adaptive.currentViewId);
+        var defaultStyle = $ax.document.stylesheet.defaultStyles[obj.type];
 
         var query = $jobj($ax.repeater.applySuffixToElementId(elementId, '_img'));
         var borderId = $ax.repeater.applySuffixToElementId(elementId, '_border');
@@ -331,19 +338,20 @@
         borderQuery.css('position', 'absolute');
         query.attr('style', '');
 
-        var borderWidth = computedStyle.borderWidth;
-        if(borderWidth) {
+        var borderWidth = Number(computedStyle.borderWidth || style.borderWidth || defaultStyle.borderWidth);
+        var hasBorderWidth = borderWidth > 0;
+        if(hasBorderWidth) {
             borderQuery.css('border-style', 'solid');
             borderQuery.css('border-width', borderWidth + 'px');
             borderQuery.css('width', style.size.width - borderWidth * 2);
             borderQuery.css('height', style.size.height - borderWidth * 2);
         }
 
-        var linePattern = computedStyle.linePattern;
-        if(linePattern) borderQuery.css('border-style', linePattern);
+        var linePattern = computedStyle.linePattern || style.linePattern || defaultStyle.linePattern;
+        if(hasBorderWidth && linePattern) borderQuery.css('border-style', linePattern);
 
-        var borderFill = computedStyle.borderFill;
-        if(borderFill) {
+        var borderFill = computedStyle.borderFill || style.borderFill || defaultStyle.borderFill;
+        if(hasBorderWidth && borderFill) {
             var color = borderFill.fillType == 'solid' ? borderFill.color :
                 borderFill.fillType == 'linearGradient' ? borderFill.colors[0].color : 0;
 
@@ -359,13 +367,13 @@
             borderQuery.css('border-color', _rgbaToFunc(red, green, blue, alpha));
         }
 
-        var cornerRadiusTopLeft = computedStyle.cornerRadiusTopLeft;
+        var cornerRadiusTopLeft = computedStyle.cornerRadiusTopLeft || style.cornerRadiusTopLeft || defaultStyle.cornerRadiusTopLeft;
         if(cornerRadiusTopLeft) {
             query.css('border-radius', cornerRadiusTopLeft + 'px');
             borderQuery.css('border-radius', cornerRadiusTopLeft + 'px');
         }
 
-        var outerShadow = computedStyle.outerShadow;
+        var outerShadow = computedStyle.outerShadow || style.outerShadow || defaultStyle.outerShadow;
         if(outerShadow && outerShadow.on) {
             var arg = '';
             arg += outerShadow.offsetX + 'px' + ' ' + outerShadow.offsetY + 'px' + ' ';
@@ -390,6 +398,11 @@
     //        $('#' + id).children().map(function (i, obj) { return obj.id; }), // all the child ids
     //        function (item) { return item.indexOf(id) < 0; })[0]; // that are not similar to the parent
     //}
+
+    var _getButtonShapeId = function (id) {
+        var obj = $obj(id);
+        return obj.type == 'treeNodeObject' ? $ax.getElementIdFromPath([obj.buttonShapeId], { relativeTo: id }) : id;
+    };
 
     var _getButtonShape = function(id) {
         var obj = $obj(id);
@@ -582,7 +595,8 @@
     };
 
     var _initialize = function() {
-        $ax.style.initializeObjectTextAlignment($ax('*'));
+        //being handled at on window.load
+        //$ax.style.initializeObjectTextAlignment($ax('*'));
     };
     $ax.style.initialize = _initialize;
 
@@ -634,7 +648,9 @@
         if(imgQuery.attr('src') != imgUrl) {
             imgQuery[0].onload = function() {
                 _updateClass();
-                imgQuery[0].onload = undefined;
+                // IE 8 can't set onload to undefined
+                if($.browser.msie && $.browser.version <= 8) imgQuery[0].onload = function() { };
+                else imgQuery[0].onload = undefined;
             };
         } else {
             _updateClass();
@@ -709,7 +725,8 @@
     };
 
     var _getObjVisible = _style.getObjVisible = function(id) {
-        return $('#' + id + ':visible').length != 0;
+        var element = document.getElementById(id);
+        return element && element.offsetWidth && element.offsetHeight;
     };
 
     var _setTextAlignment = function(textId, alignProps, updateProps) {
@@ -771,10 +788,12 @@
                 for(var i = 0; i < itemIds; i++) elementIds.push($ax.repeater.createElementId(shapeId, itemIds[i]));
             }
             for(var index = 0; index < elementIds.length; index++) {
-                var elementId = elementIds[index];
-                var textId = $ax.style.GetTextIdFromShape(elementId);
-                _resetTextJson(elementId, textId);
-                _applyImageAndTextJson(elementId, $ax.style.generateState(elementId));
+                var elementId = _getButtonShapeId(elementIds[index]);
+                if(elementId) {
+                    var textId = $ax.style.GetTextIdFromShape(elementId);
+                    _resetTextJson(elementId, textId);
+                    _applyImageAndTextJson(elementId, $ax.style.generateState(elementId));
+                }
             }
         }
 

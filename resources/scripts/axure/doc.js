@@ -52,6 +52,7 @@
         var repeaterIdToScriptIds = {};
         var repeaterIdToItemIds = {};
         var scriptIdToPath = {};
+        var _scriptIds = [];
         var elementIdToText = {};
         var radioGroupToSelectedElementId = {};
         _initializePageData = function() {
@@ -83,6 +84,7 @@
                 diagramObject.scriptIds[diagramObject.scriptIds.length] = scriptId;
 
                 scriptIdToObject[scriptId] = diagramObject;
+                _scriptIds[_scriptIds.length] = scriptId;
             }
 
             // Now map scriptIds to repeaters
@@ -263,13 +265,11 @@
 
             elementId = _getParentElement(elementId);
 
-            var itemId = $ax.repeater.getItemIdFromElementId(elementId);
-            if(!itemId) return { valid: false };
-
+            var index = $ax.repeater.getItemIdFromElementId(elementId);
+            if(!index) return { valid: false };
 
             var item = { valid: true };
 
-            var index = $ax.repeater.getItemIdFromElementId(elementId);
             var scriptId = $ax.repeater.getScriptIdFromElementId(elementId);
             var repeaterId = $ax.getParentRepeaterFromScriptId(scriptId);
             item.repeater = _getWidgetInfo(repeaterId);
@@ -327,12 +327,12 @@
             }
 
             // repeater only props
-            if(obj.type == 'repeater' && repeaterIdToItemIds[elementId]) {
-                widget.visibleitemcount = repeaterIdToItemIds[elementId].length;
-                widget.itemcount = $ax.repeater.getFilteredDataCount(elementId);
-                widget.datacount = $ax.repeater.getDataCount(elementId);
-                widget.pagecount = $ax.repeater.getPageCount(elementId);
-                widget.pageindex = $ax.repeater.getPageIndex(elementId);
+            if(obj.type == 'repeater') {
+                widget.visibleitemcount = repeaterIdToItemIds[scriptId] ? repeaterIdToItemIds[scriptId].length : $ax.repeater.getVisibleDataCount(scriptId);
+                widget.itemcount = $ax.repeater.getFilteredDataCount(scriptId);
+                widget.datacount = $ax.repeater.getDataCount(scriptId);
+                widget.pagecount = $ax.repeater.getPageCount(scriptId);
+                widget.pageindex = $ax.repeater.getPageIndex(scriptId);
             }
 
             widget.left = widget.x;
@@ -368,20 +368,19 @@
 
         $ax.getAllElementIds = function() {
             var elementIds = [];
-            for(var scriptId in scriptIdToObject) {
+            for(var i = 0; i < _scriptIds.length; i++) {
+                var scriptId = _scriptIds[i];
                 var repeaterId = scriptIdToRepeaterId[scriptId];
                 if(repeaterId && repeaterId != scriptId) {
                     var itemIds = repeaterIdToItemIds[repeaterId] || [];
-                    for(var i = 0; i < itemIds.length; i++) elementIds[elementIds.length] = $ax.repeater.createElementId(scriptId, itemIds[i]);
+                    for(var j = 0; j < itemIds.length; j++) elementIds[elementIds.length] = $ax.repeater.createElementId(scriptId, itemIds[j]);
                 } else elementIds[elementIds.length] = scriptId;
             }
             return elementIds;
         };
 
         $ax.getAllScriptIds = function() {
-            var scriptIds = [];
-            for(var scriptId in scriptIdToObject) scriptIds.push(scriptId);
-            return scriptIds;
+            return _scriptIds;
         };
 
         $ax.getObjectFromElementId = function(elementId) {
@@ -504,7 +503,9 @@
                 } else if(to.target == "parentFrame") {
                     targetLocation = parent.location;
                 } else if(to.target == "frame") {
-                    targetLocation = to.frame.contentWindow.location;
+//                    targetLocation = to.frame.contentWindow.location;
+                    $(to.frame).attr('src', targetUrl || 'about:blank');
+                    return;
                 }
 
                 if(!_needsReload(targetLocation, to.url)) {

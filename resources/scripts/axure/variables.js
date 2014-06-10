@@ -6,13 +6,7 @@ $axure.internal(function($ax) {
     $ax.globalVariableProvider = _globalVariableProvider;
 
     var setVariableValue = function(variable, value, suppressBroadcast) {
-        if(!(value instanceof Object)) {
-            value = value.toString();
-            //truncate values to prevent overflows.
-            if(value.length > 300) {
-                value = value.substring(0, 300);
-            }
-        }
+        if(!(value instanceof Object)) value = value.toString();
 
         variable = variable.toLowerCase();
         _globalVariableValues[variable] = value;
@@ -104,7 +98,7 @@ $axure.internal(function($ax) {
             }
 
             if(!csum && query.length > 250) {
-                window.alert('Prototype Warning: The variable values were too long to pass to this page.\nIf you are using IE, using Firefox will support more data.');
+                window.alert('Axure Warning: The variable values were too long to pass to this page.\n\nIf you are using IE, using Chrome or Firefox will support more data.');
             }
         }
     };

@@ -1,6 +1,7 @@
 ﻿body {
   margin:0px;
   background-image:none;
+  touch-action:none;
   position:static;
   left:auto;
   width:1500px;
@@ -19,10 +20,24 @@
   width:560px;
   height:370px;
 }
+#u0_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:560px;
+  height:370px;
+}
 #u1 {
   position:absolute;
   left:10px;
   top:431px;
+  width:560px;
+  height:370px;
+}
+#u1_input {
+  position:absolute;
+  left:0px;
+  top:0px;
   width:560px;
   height:370px;
 }
@@ -60,8 +75,7 @@
   top:0px;
   width:1180px;
   height:150px;
-  background-image:;
-  font-family:'Arial';
+  font-family:'ArialMT', 'Arial';
   font-weight:400;
   font-style:normal;
   font-size:13px;
@@ -167,8 +181,7 @@
   top:0px;
   width:560px;
   height:200px;
-  background-image:;
-  font-family:'Arial';
+  font-family:'ArialMT', 'Arial';
   font-weight:400;
   font-style:normal;
   font-size:13px;
@@ -189,8 +202,7 @@
   top:0px;
   width:560px;
   height:200px;
-  background-image:;
-  font-family:'Arial';
+  font-family:'ArialMT', 'Arial';
   font-weight:400;
   font-style:normal;
   font-size:13px;
