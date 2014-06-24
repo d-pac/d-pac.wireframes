@@ -4,7 +4,7 @@
   touch-action:none;
   position:static;
   left:auto;
-  width:1190px;
+  width:1200px;
   margin-left:0;
   margin-right:0;
   text-align:left;
@@ -285,5 +285,27 @@
   left:2px;
   top:8px;
   width:96px;
+  word-wrap:break-word;
+}
+#u23 {
+  position:absolute;
+  left:0px;
+  top:470px;
+  width:1200px;
+  height:100px;
+}
+#u23_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1200px;
+  height:100px;
+}
+#u24 {
+  position:absolute;
+  left:2px;
+  top:42px;
+  width:1196px;
+  visibility:hidden;
   word-wrap:break-word;
 }
