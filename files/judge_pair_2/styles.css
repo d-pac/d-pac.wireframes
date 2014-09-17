@@ -1,7 +1,6 @@
 ﻿body {
   margin:0px;
   background-image:none;
-  touch-action:none;
   position:static;
   left:auto;
   width:1196px;
@@ -2514,7 +2513,6 @@
   left:0px;
   top:0px;
   width:600px;
-  visibility:hidden;
   word-wrap:break-word;
 }
 #u222 {
