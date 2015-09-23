@@ -1077,3 +1077,25 @@
   width:1px;
   height:1px;
 }
+#u84 {
+  position:absolute;
+  left:538px;
+  top:874px;
+  width:10px;
+  height:10px;
+}
+#u84_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:10px;
+  height:10px;
+}
+#u85 {
+  position:absolute;
+  left:2px;
+  top:-3px;
+  width:6px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
